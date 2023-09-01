@@ -1,9 +1,13 @@
 import time
 import board
 import touchio
+import busio
 
 touch_pad = board.A0  # Will not work for Circuit Playground Express!
 # touch_pad = board.A1  # For Circuit Playground Express
+
+lcd_sda = digitalio.DigitalInOut(board.A4)
+lcd_scl = digitalio.DigitalInOut(board.A5)
 
 touch = touchio.TouchIn(touch_pad)
 count = 0
