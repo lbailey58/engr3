@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: MIT
 
 """CircuitPython Essentials Servo standard servo example"""
-import time
+from time import sleep
 import board
 import pwmio
 from adafruit_motor import servo
@@ -18,10 +18,16 @@ my_servo = servo.Servo(pwm)
 
 pin1 = board.A0
 pin2 = board.A1
+angle = 90
 
 touch1 = touchio.TouchIn(pin1)
 touch2 = touchio.TouchIn(pin2);
 
 while True:
     if(not(touch1.value is touch2.value)):
-        
+        if(touch1.value and angle < 180):
+            angle += 0.5
+        elif(angle > 0):
+            angle -= 0.5
+    my_servo.angle = angle
+    sleep(0.005)
