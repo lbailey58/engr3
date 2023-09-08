@@ -61,13 +61,13 @@ while True:
 ```
 
 ### Evidence
-![WiringSolution](media\servo-sweep-circuit.png)
+![](media\servo-sweep-circuit.png)
 
 Except, there would be wires on A0 and A1 for capacitive touch
 
 Image credit to [Arduino](https://docs.arduino.cc/learn/electronics/servo-motors)
 
-
+![](media\capTouch.png)
 ### Wiring
 
 ### Reflection
