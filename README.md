@@ -61,8 +61,12 @@ while True:
 ```
 
 ### Evidence
-Pictures / Gifs of your work should go here.  You need to communicate what your thing does.
-Remember you can insert pictures using Markdown or HTML
+![WiringSolution](media\servo-sweep-circuit.png)
+
+Except, there would be wires on A0 and A1 for capacitive touch
+
+Image credit to [Arduino](https://docs.arduino.cc/learn/electronics/servo-motors)
+
 
 ### Wiring
 
