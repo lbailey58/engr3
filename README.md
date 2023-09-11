@@ -61,13 +61,18 @@ while True:
 ```
 
 ### Evidence
+
+![](media\capTouch.gif)
+
+The servo moves back and forth when I touch the different wires
+### Wiring
 ![](media\servo-sweep-circuit.png)
 
 Except, there would be wires on A0 and A1 for capacitive touch
 
 Image credit to [Arduino](https://docs.arduino.cc/learn/electronics/servo-motors)
 
-![](media\capTouch.png)
-### Wiring
-
 ### Reflection
+The assignment was great; it let me learn the ropes of github and Visual Studio code.
+
+I also really enjoyed learning about Capacitave touch, which I think to be easier to use than buttons.
