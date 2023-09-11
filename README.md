@@ -76,3 +76,21 @@ Image credit to [Arduino](https://docs.arduino.cc/learn/electronics/servo-motors
 The assignment was great; it let me learn the ropes of github and Visual Studio code.
 
 I also really enjoyed learning about Capacitave touch, which I think to be easier to use than buttons.
+
+## Distance Sensor
+
+### Description & Code
+Write a description of your assignment first.
+
+```python
+Code goes here
+
+```
+
+### Evidence
+Pictures / Gifs of your work should go here.  You need to communicate what your thing does.
+Remember you can insert pictures using Markdown or HTML
+
+### Wiring
+
+### Reflection
