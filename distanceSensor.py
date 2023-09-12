@@ -1,22 +1,28 @@
 import time
 import board
 import adafruit_hcsr04
-sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.D7, echo_pin=board.D8)
-red = 0
-green = 0
+import pwmio
 
+
+sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.D7, echo_pin=board.D8)
+red = pwmio.PWMOut(board.D10)
+green = pwmio.PWMOut(board.D11)
+blue = pwmio.PWMOut(board.D12)
 
 while True:
     try:
         if(sonar.distance < 20):
-            red = 255
-            green = (sonar.distance-20)*-12.75
+            red.duty_cycle = 65535   
+            green.duty_cycle = (sonar.distance-20)*-3276.75
+            blue.duty_cycle = 0 
         elif(sonar.distance is 20):
-            red = 255
-            green = 255
+            red.duty_cycle = 65535
+            green.duty_cycle = 65535
+            blue.duty_cycle = 0
         else:
-            green = 255
-            red = (sonar.distance-20)*12.75
+            green.duty_cycle = 65535
+            red.duty_cycle = (sonar.distance-20)*3276.75
+            blue.duty_cycle = 0
     except RuntimeError:
         print("Retrying!")
     
