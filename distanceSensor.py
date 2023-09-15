@@ -14,14 +14,14 @@ while True:
     try:
         cm = sonar.distance
         if(cm < 20 and cm > 5):
-            led.color = (255,int((cm-5)*17), 0)
+            led.color = (255, (cm-5)*17)
         elif(cm is 20):
             led.color = (255, 255, 0)
         elif(cm > 20 and cm < 35):
-            led.color = (int((-(cm-27.5)+7.5)*17), 255, 0)
+            led.color = ((-1*(cm-27.5)+7.5)*17, 255, 0)
         elif(cm < 5):
             led.color = (255, 0, 0)
-        else:
+        elif(cm > 35):
             led.color = (0, 255, 0)
     except RuntimeError:
         print("Retrying!")
