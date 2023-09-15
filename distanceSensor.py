@@ -1,7 +1,6 @@
 import time
 import board
 import adafruit_hcsr04
-import pwmio
 import adafruit_rgbled
 
 cm = 0
@@ -27,4 +26,5 @@ while True:
     except RuntimeError:
         print("Retrying!")
     print(cm)
+
     time.sleep(0.1)
