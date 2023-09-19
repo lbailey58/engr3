@@ -1,22 +1,6 @@
-
-
-## COPY THIS
-
-### Description & Code
-Write a description of your assignment first.
-
-```python
-Code goes here
-
-```
-
-### Evidence
-Pictures / Gifs of your work should go here.  You need to communicate what your thing does.
-Remember you can insert pictures using Markdown or HTML
-
-### Wiring
-
-### Reflection
+[Servo](https://github.com/lbailey58/engr3/blob/main/README.md#servo)
+[Distance Sensor](https://github.com/lbailey58/engr3/blob/main/README.md#distance-sensor)
+[COPY THIS](https://github.com/lbailey58/engr3/blob/main/README.md#copy-this)
 
 ## Servo
 
@@ -143,3 +127,23 @@ while True:
 
 Credit to [Hasan Ahmed](https://www.tinkercad.com/things/5REip7gcB1n)
 ### Reflection
+
+
+## COPY THIS
+
+### Description & Code
+Write a description of your assignment first.
+
+```python
+Code goes here
+
+```
+
+### Evidence
+Pictures / Gifs of your work should go here.  You need to communicate what your thing does.
+Remember you can insert pictures using Markdown or HTML
+
+### Wiring
+
+### Reflection
+
