@@ -50,11 +50,11 @@ while True: #starting the loop
 
 ### Evidence
 
-![theThing](media\capTouch.gif)
+![theThing](main\media\capTouch.gif)
 
 The servo moves back and forth when I touch the different wires
 ### Wiring
-![wiring](media\servo-sweep-circuit.png)
+![wiring](main\media\servo-sweep-circuit.png)
 
 Except, there would be wires on A0 and A1 for capacitive touch
 
@@ -122,10 +122,10 @@ while True:
 ```
 
 ### Evidence
-![gif](media\rgbLed.gif)
+![gif](main\media\rgbLed.gif)
 
 ### Wiring
-![wiring](media\poop.png)
+![wiring](main\media\poop.png)
 
 Credit to [Hasan Ahmed](https://www.tinkercad.com/things/5REip7gcB1n)
 ### Reflection
