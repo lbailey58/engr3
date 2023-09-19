@@ -1,3 +1,5 @@
+
+
 ## COPY THIS
 
 ### Description & Code
@@ -134,9 +136,10 @@ while True:
 ```
 
 ### Evidence
-Pictures / Gifs of your work should go here.  You need to communicate what your thing does.
-Remember you can insert pictures using Markdown or HTML
+![](media\rgbLed.gif)
 
 ### Wiring
+![](media\poop.png)
 
+Credit to [Hasan Ahmed](https://www.tinkercad.com/things/5REip7gcB1n)
 ### Reflection
