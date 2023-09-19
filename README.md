@@ -1,5 +1,7 @@
 [Servo](https://github.com/lbailey58/engr3/blob/main/README.md#servo)
+
 [Distance Sensor](https://github.com/lbailey58/engr3/blob/main/README.md#distance-sensor)
+
 [COPY THIS](https://github.com/lbailey58/engr3/blob/main/README.md#copy-this)
 
 ## Servo
@@ -48,11 +50,11 @@ while True: #starting the loop
 
 ### Evidence
 
-![](media\capTouch.gif)
+![theThing](media\capTouch.gif)
 
 The servo moves back and forth when I touch the different wires
 ### Wiring
-![](media\servo-sweep-circuit.png)
+![wiring](media\servo-sweep-circuit.png)
 
 Except, there would be wires on A0 and A1 for capacitive touch
 
@@ -120,10 +122,10 @@ while True:
 ```
 
 ### Evidence
-![](media\rgbLed.gif)
+![gif](media\rgbLed.gif)
 
 ### Wiring
-![](media\poop.png)
+![wiring](media\poop.png)
 
 Credit to [Hasan Ahmed](https://www.tinkercad.com/things/5REip7gcB1n)
 ### Reflection
