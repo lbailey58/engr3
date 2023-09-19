@@ -61,9 +61,7 @@ Except, there would be wires on A0 and A1 for capacitive touch
 Image credit to [Arduino](https://docs.arduino.cc/learn/electronics/servo-motors)
 
 ### Reflection
-The assignment was great; it let me learn the ropes of github and Visual Studio code.
-
-I also really enjoyed learning about Capacitave touch, which I think to be easier to use than buttons.
+The assignment was great; it let me learn the ropes of github and Visual Studio code. I also really enjoyed learning about Capacitave touch, which I think to be easier to use than buttons. This assignment was a great intro into working in VS code and helped me get used to all of the processes asociated with it.
 
 ## Distance Sensor
 
@@ -124,12 +122,17 @@ while True:
 ### Evidence
 ![gif](media/rgbLed.gif)
 
+The led changes colors when I move the acrylic up and down
 ### Wiring
 ![wiring](media/poop.png)
 
 Credit to [Hasan Ahmed](https://www.tinkercad.com/things/5REip7gcB1n)
 ### Reflection
 
+This assignment was hard for me because it heavily relied on being able to find a good library in order to make it work.
+This was not helped by the fact that even when I got a library that should have worked, it did not work because I had my cathode rgb led wired like an anode rgb led.
+All of the problems I faced culminated in me being unprogressive for multiple class periods in a row, even though I was trying to be productive.
+One thing I learned from this assignment is that the examples on websites with libraries will not always be exaclty what you need, so you need to build a frankenstein of code from multiple differnent websites.
 
 ## COPY THIS
 
