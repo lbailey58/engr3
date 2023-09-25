@@ -1,20 +1,18 @@
 
 import time
 import board
-from digitalio import DigitalInOut, Direction, Pull
-from pwmio import PWMOut
-from adafruit_motor import motor as Motor
+import pwmio
 from analogio import AnalogIn
 
 potentiometer = AnalogIn(board.A0)
 
-control = PWMOut(board.D3, frequency=50)
+motor = pwmio.PWMOut(board.D3, frequency=5000, duty_cycle=65535)
 
-motor = Motor.DCMotor(control)
 
 
 
 while True:
-    motor.throttle = potentiometer.value-(65535/2)
-
+    a = potentiometer.value
+    motor.duty_cycle = a
+    print(a)
     time.sleep(0.25)       

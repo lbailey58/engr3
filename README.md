@@ -2,6 +2,8 @@
 
 [Distance Sensor](https://github.com/lbailey58/engr3/blob/main/README.md#distance-sensor)
 
+[Motor Control](https://github.com/lbailey58/engr3/blob/main/README.md#motor-control)
+
 [COPY THIS](https://github.com/lbailey58/engr3/blob/main/README.md#copy-this)
 
 ## Servo
@@ -133,6 +135,49 @@ This assignment was hard for me because it heavily relied on being able to find 
 This was not helped by the fact that even when I got a library that should have worked, it did not work because I had my cathode rgb led wired like an anode rgb led.
 All of the problems I faced culminated in me being unprogressive for multiple class periods in a row, even though I was trying to be productive.
 One thing I learned from this assignment is that the examples on websites with libraries will not always be exaclty what you need, so you need to build a frankenstein of code from multiple differnent websites.
+
+## Motor Control
+
+### Description & Code
+We were assigned to control a motor with a potentiometer without using an H-Bridge
+
+```python
+
+#imports
+import board
+import pwmio
+from analogio import AnalogIn
+
+#Setting up the potentiometer
+potentiometer = AnalogIn(board.A0)
+
+#Setting up the motor
+motor = pwmio.PWMOut(board.D3, frequency=5000, duty_cycle=65535)
+
+
+
+
+while True:
+    #Makes it so the value doesn't change mid-loop
+    a = potentiometer.value
+
+    #sets the motors speed to the potentiometer value
+    motor.duty_cycle = a
+
+    #prints the value
+    print(a)
+
+```
+
+### Evidence
+Pictures / Gifs of your work should go here.  You need to communicate what your thing does.
+Remember you can insert pictures using Markdown or HTML
+
+### Wiring
+
+### Reflection
+
+
 
 ## COPY THIS
 
