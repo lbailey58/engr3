@@ -170,13 +170,23 @@ while True:
 ```
 
 ### Evidence
-Pictures / Gifs of your work should go here.  You need to communicate what your thing does.
-Remember you can insert pictures using Markdown or HTML
+![gif](media/motorControl.gif)
 
 ### Wiring
+![Motor Wiring](media/motorWiring.png)
+
+Credit to [Mr. Helmsetter](https://cvilleschools.instructure.com/courses/40347/assignments/544954?module_item_id=1907201)
+
+![Potentiometer](media/potentiometer.png)
+
+Credit to [the Robotics Back-End](https://roboticsbackend.com/arduino-potentiometer-complete-tutorial/)
 
 ### Reflection
 
+This assignment was useful for learning how to control a motor in circuitpython.
+I was suprised that we did not use H-Bridges and I think that the way that we do it is a bit overcomplicated.
+One challenge I ran into along the way was a battery with a negative charge, witch was something I had never seen before.
+Overall this assignment was a good way to learn how to learn about new compnents and a good way to learn to control a motor.
 
 
 ## COPY THIS
