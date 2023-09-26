@@ -4,6 +4,8 @@
 
 [Motor Control](https://github.com/lbailey58/engr3/blob/main/README.md#motor-control)
 
+[Photointerupter](https://github.com/lbailey58/engr3/blob/main/README.md#photointerupter)
+
 [COPY THIS](https://github.com/lbailey58/engr3/blob/main/README.md#copy-this)
 
 ## Servo
@@ -187,6 +189,58 @@ This assignment was useful for learning how to control a motor in circuitpython.
 I was suprised that we did not use H-Bridges and I think that the way that we do it is a bit overcomplicated.
 One challenge I ran into along the way was a battery with a negative charge, witch was something I had never seen before.
 Overall this assignment was a good way to learn how to learn about new compnents and a good way to learn to control a motor.
+
+
+## Photointerupter
+
+### Description & Code
+Write a description of your assignment first.
+
+```python
+#imports
+import digitalio
+import board
+import time
+
+#declaring the photointerupter as an object
+pi = digitalio.DigitalInOut(board.D3)
+
+#other variable declares (ignore misspelling)
+inerupts = 0
+x = False
+
+while True:
+    #getting the time since the start of the program
+    now = time.monotonic()
+    
+    #if it's interupted and not bouncing add one to interupts
+    if(pi.value and not x):
+        inerupts +=1
+        x = True
+
+    #Every 4 seconds print the message
+    if(now % 4 == 0):
+        print("I have been interupted "+ str(inerupts) +" times")
+    
+    #debouncing
+    if(x and not pi.value):
+        x = False
+
+```
+
+### Evidence
+Pictures / Gifs of your work should go here.  You need to communicate what your thing does.
+Remember you can insert pictures using Markdown or HTML
+
+### Wiring
+![wiring](media/interupterWiring.webp)
+
+Everything is the same as the photo except that we used different photointerupters
+
+Credit to [Arduino Modules](https://arduinomodules.info/ky-010-photo-interrupter-module/)
+
+### Reflection
+
 
 
 ## COPY THIS
