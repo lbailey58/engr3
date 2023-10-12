@@ -233,8 +233,8 @@ while True:
 ```
 
 ### Evidence
-Pictures / Gifs of your work should go here.  You need to communicate what your thing does.
-Remember you can insert pictures using Markdown or HTML
+
+![gif](media/potentiometer.gif)
 
 ### Wiring
 ![wiring](media/interupterWiring.webp)
