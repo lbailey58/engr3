@@ -6,6 +6,8 @@
 
 [Photointerupter](https://github.com/lbailey58/engr3/blob/main/README.md#photointerupter)
 
+[The Hanger](https://github.com/lbailey58/engr3/blob/main/README.md#the-hanger)
+
 [COPY THIS](https://github.com/lbailey58/engr3/blob/main/README.md#copy-this)
 
 ## Servo
@@ -240,8 +242,34 @@ Everything is the same as the photo except that we used different photointerupte
 Credit to [Arduino Modules](https://arduinomodules.info/ky-010-photo-interrupter-module/)
 
 ### Reflection
+During this asignment, I learned how to use the time.monotonic function as well as the photointerupter in circuitpython. 
+This assignment was also useful for learning the digitalio library. One issue that I ran into was that my photoinerupter wasn't triggering.
+
+## The Hanger
+
+### Description
+We were assigned to make a part from a drawing
 
 
+### Evidence
+![part](media\hi.png)
+
+### Reflection
+This assignment was a good refesher for CAD. 
+It warmed me back up after the summer away.
+I didn't really learn anything new because the part was pretty simple.
+
+## Swing Arm
+
+### Description
+In this assignment, we were told to create a complex part from drawings. We had to use variables in our design to make it so that we could change the part later.
+
+### Evidence
+
+![SwingArm](media/swingArm.png)
+
+### Reflection
+This assignment was challenging because of the complexity of the part and the amount of information we were given. This assignment taught me how to make sense of more complex drawings. I had one main error, wich was that I mixed up the sides of the arm (one is long and the other is short)
 
 ## COPY THIS
 
