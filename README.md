@@ -8,6 +8,8 @@
 
 [The Hanger](https://github.com/lbailey58/engr3/blob/main/README.md#the-hanger)
 
+[Swing Arm](https://github.com/lbailey58/engr3/blob/main/README.md#swing-arm)
+
 [COPY THIS](https://github.com/lbailey58/engr3/blob/main/README.md#copy-this)
 
 ## Servo
