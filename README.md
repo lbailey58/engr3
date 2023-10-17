@@ -255,6 +255,7 @@ We were assigned to make a part from a drawing
 
 ### Evidence
 ![part](media\hi.png)
+[link](https://cvilleschools.onshape.com/documents/8c427e1606f1d98488399484/w/542500ae5d8a09b11482a609/e/cdeced8ec882bba05865d85d?renderMode=0&uiState=652ed73b2144ae45637caf8f)
 
 ### Reflection
 This assignment was a good refesher for CAD. 
@@ -269,7 +270,7 @@ In this assignment, we were told to create a complex part from drawings. We had 
 ### Evidence
 
 ![SwingArm](media/swingArm.png)
-
+[link](https://cvilleschools.onshape.com/documents/62792585bf20051ac83ecd4c/w/260f2a6b03b6cee2875957cb/e/51c002dab6e73429a487b67d?renderMode=0&uiState=652ed78f7160a27eab2d3a30)
 ### Reflection
 This assignment was challenging because of the complexity of the part and the amount of information we were given. This assignment taught me how to make sense of more complex drawings. I had one main error, wich was that I mixed up the sides of the arm (one is long and the other is short)
 
