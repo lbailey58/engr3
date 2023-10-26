@@ -12,6 +12,8 @@
 
 [COPY THIS](https://github.com/lbailey58/engr3/blob/main/README.md#copy-this)
 
+[Multi-Part Design Studio](https://github.com/lbailey58/engr3/blob/main/README.md#multi-part-design-studio)
+
 ## Servo
 
 ### Description & Code
@@ -264,6 +266,7 @@ I didn't really learn anything new because the part was pretty simple.
 
 ## Swing Arm
 
+
 ### Description
 In this assignment, we were told to create a complex part from drawings. We had to use variables in our design to make it so that we could change the part later.
 
@@ -273,6 +276,21 @@ In this assignment, we were told to create a complex part from drawings. We had 
 [link](https://cvilleschools.onshape.com/documents/62792585bf20051ac83ecd4c/w/260f2a6b03b6cee2875957cb/e/51c002dab6e73429a487b67d?renderMode=0&uiState=652ed78f7160a27eab2d3a30)
 ### Reflection
 This assignment was challenging because of the complexity of the part and the amount of information we were given. This assignment taught me how to make sense of more complex drawings. I had one main error, wich was that I mixed up the sides of the arm (one is long and the other is short)
+
+## Multi-Part Design Studio
+
+[Onshape Link](https://cvilleschools.onshape.com/documents/58a3594e4e10554dbc6d1c39/w/32943e04a46017f96e2fdeb9/e/db070eef3377c1caabf170a6?renderMode=0&uiState=653abb3bf2d96d054b099260)
+
+### Description
+We were assigned to answer a questions in wich we had to make muliple parts and then get the correct mass for all of the parts combined.
+We then had to modify the parts 3 times and see if the part studio did not break.
+
+
+### Evidence
+![image](media/cylinderParts.png)
+
+### Reflection
+This assignment was very helpful in seeing what the Onshape Exam would be like. One thing that made it kinda simple is that the drawings were in the order that you used them in the pdf. This assignment was helpful in reminding me to name my parts, assign materials to my parts, and constrain my parts in relation to other parts. 
 
 ## COPY THIS
 
