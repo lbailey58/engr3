@@ -12,6 +12,8 @@
 
 [Multi-Part Design Studio](https://github.com/lbailey58/engr3/blob/main/README.md#multi-part-design-studio)
 
+[Onshape Certification Prep 1](https://github.com/lbailey58/engr3/blob/main/README.md#onshape-certification-prep-1)
+
 [COPY THIS](https://github.com/lbailey58/engr3/blob/main/README.md#copy-this)
 
 ## Servo
@@ -294,6 +296,23 @@ We then had to modify the parts 3 times and see if the part studio did not break
 
 ### Reflection
 This assignment was very helpful in seeing what the Onshape Exam would be like. One thing that made it kinda simple is that the drawings were in the order that you used them in the pdf. This assignment was helpful in reminding me to name my parts, assign materials to my parts, and constrain my parts in relation to other parts. 
+
+## Onshape Certification Prep 1
+
+[Link](https://cvilleschools.onshape.com/documents/1bd98e3fb4eadb199d99951c/w/c390e2815e6b0a5f252b8f77/e/645f395c24c880a47b25b640?renderMode=0&uiState=6543f491b9ea18220db37a6f)
+
+### Description
+We were assigned to CAD an object and input it's mass into a quiz. We then had to modify the object and input the mass into the quiz 4 times.
+
+### Evidence
+
+![CAD image](media/qwerty.png)
+
+![Quiz image](media/pup.png)
+
+
+### Reflection
+This assignment was very helpful practice for the Onshape certification exam. It allowed me to get used to using variables for stated (and not stated) things. One thing I learned in this assignment is that I need to not make mistakes on the exam because I had a good time, but then I realised that I made a mistake on the first question that I had to go back and fix; the mistake lost me ~30 minutes.
 
 ## COPY THIS
 
