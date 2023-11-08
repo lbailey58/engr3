@@ -14,6 +14,8 @@
 
 [Onshape Certification Prep 1](https://github.com/lbailey58/engr3/blob/main/README.md#onshape-certification-prep-1)
 
+[Onshape Certification Prep 2](https://github.com/lbailey58/engr3/blob/main/README.md#onshape-certification-prep-2)
+
 [COPY THIS](https://github.com/lbailey58/engr3/blob/main/README.md#copy-this)
 
 ## Servo
@@ -313,6 +315,22 @@ We were assigned to CAD an object and input it's mass into a quiz. We then had t
 
 ### Reflection
 This assignment was very helpful practice for the Onshape certification exam. It allowed me to get used to using variables for stated (and not stated) things. One thing I learned in this assignment is that I need to not make mistakes on the exam because I had a good time, but then I realised that I made a mistake on the first question that I had to go back and fix; the mistake lost me ~30 minutes.
+
+## Onshape Certification Prep 2
+
+### Description & Code
+
+[Link](https://cvilleschools.onshape.com/documents/4bbe7e04faa52698a61c2c4c/w/9658eebc735cd5ae2c3daca6/e/ad26efe465ef641c8568e031?renderMode=0&uiState=654bf516913c3b76e250ded3)
+
+We were assigned to draw a 3d microphone stand from drawings and then modify the drawing.
+
+### Evidence
+![Assembly](media/a.png)
+
+![Assembly](media/StartingDocument.png)
+
+### Reflection
+This assignment did not go as well as I as hoped because I made 2 mistakes that took a while to find
 
 ## COPY THIS
 
