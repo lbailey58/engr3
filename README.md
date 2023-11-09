@@ -332,6 +332,24 @@ We were assigned to draw a 3d microphone stand from drawings and then modify the
 ### Reflection
 This assignment did not go as well as I as hoped because I made 2 mistakes that took a while to find. This assignment helped me understand more what the test would look like. I did not enjoy how many times I had to set material in this assignment because of one of the mistakes I made.
 
+## Alignment Plate
+
+[Link](https://cvilleschools.onshape.com/documents/8c427e1606f1d98488399484/w/542500ae5d8a09b11482a609/e/73cac0865da2c19894056b2e?renderMode=0&uiState=654d3da0107b3f57d925d94d)
+
+### Description & Code
+We were assigned to do the easiest CAD challenge
+
+
+### Evidence
+
+![Image](media/b.png)
+
+![otherImage](media/c.png)
+
+### Reflection
+
+This assignment was extremely easy, took me less than 10 minutes, and honestly, doesn't deserve to be documented (but I want the points so I am anyway). I had already competed this CAD challenge before it was assigned as an assignment, but I had to redo it. It was a lot easier to do the second time because I knew that the center slit was not centered.
+
 ## COPY THIS
 
 ### Description & Code
