@@ -16,6 +16,8 @@
 
 [Onshape Certification Prep 2](https://github.com/lbailey58/engr3/blob/main/README.md#onshape-certification-prep-2)
 
+[Alignment Plate](https://github.com/lbailey58/engr3/blob/main/README.md#alignment-plate)
+
 [COPY THIS](https://github.com/lbailey58/engr3/blob/main/README.md#copy-this)
 
 ## Servo
