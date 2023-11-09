@@ -330,7 +330,7 @@ We were assigned to draw a 3d microphone stand from drawings and then modify the
 ![Assembly](media/StartingDocument.png)
 
 ### Reflection
-This assignment did not go as well as I as hoped because I made 2 mistakes that took a while to find
+This assignment did not go as well as I as hoped because I made 2 mistakes that took a while to find. This assignment helped me understand more what the test would look like. I did not enjoy how many times I had to set material in this assignment because of one of the mistakes I made.
 
 ## COPY THIS
 
