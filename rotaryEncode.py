@@ -11,9 +11,9 @@ menu_index = 0
 
 enc = rotaryio.IncrementalEncoder(board.D4, board.D3, divisor=2)
 lcd = LCD(I2CPCF8574Interface(board.I2C(), 0x3f), num_rows=2, num_cols=16)
-#led = neopixel.NeoPixel(board.NEOPIXEL, 1)
-#led.brightness = 0.3
-#led[0] = (255, 0, 0)
+led = neopixel.NeoPixel(board.NEOPIXEL, 1)
+led.brightness = 0.3
+led = (255, 0, 0) #if error here add [0] after led
 
 
 button = digitalio.DigitalInOut(board.D2)
@@ -23,6 +23,7 @@ button_state = None
 
 while True:
     menu_index = enc.position
+    menu_index_lcd = menu_index%3
     lcd.set_cursor_pos(0,0)
     lcd.print("Push For: ")
     if last_index is None or menu_index is not last_index:
@@ -31,9 +32,13 @@ while True:
         lcd.set_cursor_pos(1,0)
         lcd.print(menu[menu_index_lcd])
     last_index = menu_index
-    menu_index_lcd = menu_index%3
     if not button.value and button_state is None:
         button_state = "pressed"
     if button.value and button_state == "pressed":
-        print(menu[menu_index_lcd])
+        if menu_index_lcd == 0:
+            led = (255, 0, 0)
+        elif menu_index_lcd == 1:
+            led = (255, 255, 0)
+        else:
+            led = (0, 255, 0)
         button_state = None
