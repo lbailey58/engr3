@@ -418,11 +418,13 @@ while True:
         button_state = None
 ```
 
-### Evidence
-Pictures / Gifs of your work should go here.  You need to communicate what your thing does.
-Remember you can insert pictures using Markdown or HTML
+### Evidence 
+
+![gif](media/rotator.gif)
 
 ### Wiring
+
+![image](media/z.png)
 
 ### Reflection
 
