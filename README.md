@@ -428,7 +428,7 @@ while True:
 
 ### Wiring
 
-![image](media/z.png)
+![image](media/d.png)
 
 ### Reflection
 
