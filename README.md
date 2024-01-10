@@ -18,6 +18,8 @@
 
 [Alignment Plate](https://github.com/lbailey58/engr3/blob/main/README.md#alignment-plate)
 
+[Rotary Encoder](https://github.com/lbailey58/engr3/blob/main/README.md#rotary-encoder)
+
 [COPY THIS](https://github.com/lbailey58/engr3/blob/main/README.md#copy-this)
 
 ## Servo
@@ -362,6 +364,8 @@ This assignment was extremely easy, took me less than 10 minutes, and honestly, 
 We were assigned to use a rotary encoder, an lcd, and our boards built-in neopixel to create a controllable stoplight. A menu on the lcd is controlled by the rotary encoder's rotation, with the button feature used to switch the color of the neopixel. 
 
 ```python
+#Original Code By Rachel Gibson
+
 #importing all of my stuff
 import rotaryio
 import board
@@ -427,6 +431,8 @@ while True:
 ![image](media/z.png)
 
 ### Reflection
+
+This assignment was nice in that I did not have to find all of the code online, instead I just had to complete the code from the slideshow. This assignment was good in that later (maybe on my project) I will be able to copy and paste code from this assignment in order to have an easy neopixel/encoder/lcd (I'll be able to set it up in a minute instead of an hour or two). I learned how to use an array in circiutpython, how to use an lcd, and how to use an encoder during this assignment.
 
 ## COPY THIS
 
