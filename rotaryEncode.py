@@ -7,9 +7,13 @@ from lib.lcd.lcd import LCD
 from lib.lcd.i2c_pcf8574_interface import I2CPCF8574Interface
 
 #creating some variables
-menu = ["stop", "caution", "go"]
+menu = ["Reds", "Greens", "Blues"]
+reds = ["Cancel", "Red", "Orange"]
+greens = ["Cancel", "Green", "Mint"]
+blues = ["Cancel", "Blue", "Purple"]
 last_index = None
 menu_index = 0
+place = 0
 
 #creating some objects (enc = encoder, lcd = liquid crystal display, led = light emitting diode)
 enc = rotaryio.IncrementalEncoder(board.D4, board.D3, divisor=2)
@@ -40,15 +44,45 @@ while True:
         lcd.set_cursor_pos(1,0)
         lcd.print("          ")
         lcd.set_cursor_pos(1,0)
-        lcd.print(menu[menu_index_lcd])
+        if place is 0:
+            lcd.print(menu[menu_index_lcd])
+        elif place is 1:
+            lcd.print(reds[menu_index_lcd])
+        elif place is 2:
+            lcd.print(greens[menu_index_lcd])
+        else:
+            lcd.print(blues[menu_index_lcd])
     last_index = menu_index
     if not button.value and button_state is None: #debouncingness
         button_state = "pressed"
     if button.value and button_state == "pressed": #sets the colors
-        if menu_index_lcd == 0:
-            led[0] = (255, 0, 0)
-        elif menu_index_lcd == 1:
-            led[0] = (255, 255, 0)
-        else:
-            led[0] = (0, 255, 0)
-        button_state = None
+        if place == 0:
+            if menu_index_lcd == 0:
+                place = 1
+            elif menu_index_lcd == 1:
+                place = 2
+            else:
+                place = 3
+        elif place == 1:
+            if menu_index_lcd == 0:
+                place = 0
+            elif menu_index_lcd == 1:
+                led[0] = (255, 0, 0)
+            elif menu_index_lcd == 2:
+                led[0] = (255, 43, 89)
+        elif place == 2:
+            if menu_index_lcd == 0:
+                place = 0
+            elif menu_index_lcd == 1:
+                led[0] = (0, 255, 0)
+            else:
+                led[0] = (0, 255, 128)
+        elif place == 3:
+            if menu_index_lcd == 0:
+                place = 0
+            elif menu_index_lcd == 1:
+                led[0] = (0, 0, 255)
+            else:
+                led[0] = (190, 0, 255)
+
+    button_state = None
