@@ -20,6 +20,8 @@
 
 [Rotary Encoder](https://github.com/lbailey58/engr3/blob/main/README.md#rotary-encoder)
 
+[Stepper Motor](https://github.com/lbailey58/engr3/blob/main/README.md#big-ol-motor)
+
 [COPY THIS](https://github.com/lbailey58/engr3/blob/main/README.md#copy-this)
 
 ## Servo
@@ -433,6 +435,86 @@ while True:
 ### Reflection
 
 This assignment was nice in that I did not have to find all of the code online, instead I just had to complete the code from the slideshow. This assignment was good in that later (maybe on my project) I will be able to copy and paste code from this assignment in order to have an easy neopixel/encoder/lcd (I'll be able to set it up in a minute instead of an hour or two). I learned how to use an array in circiutpython, how to use an lcd, and how to use an encoder during this assignment.
+
+## Big Ol Motor
+
+### Description & Code
+We were assigned to control a stepper motor so that it continued to rotate until it hit a limit switch, upon wich it would rotate backwards for a liitle bit before continuing to rotate forwards.
+
+```python
+import asyncio
+import board
+import keypad
+import time
+import digitalio
+from adafruit_motor import stepper
+#import the things that need to be imported
+
+#Setting some variables to be used later
+DELAY = 0.01
+STEPS = 1
+
+#               A1                                  A2                                  B1                              B2        
+coils = (digitalio.DigitalInOut(board.D9), digitalio.DigitalInOut(board.D10), digitalio.DigitalInOut(board.D11), digitalio.DigitalInOut(board.D12),)
+
+#setting the coil pins as an output
+for coil in coils:
+    coil.direction = digitalio.Direction.OUTPUT
+
+#creating the motor
+motor = stepper.StepperMotor(coils[0], coils[1], coils[2], coils[3], microsteps=None)
+
+#Spins the motor while other things are not happening
+async def run_motor():
+    while(True):
+        for step in range(STEPS):
+            motor.onestep(style=stepper.DOUBLE)
+            time.sleep(DELAY)
+        await asyncio.sleep(0)
+
+ #moves the motor backward when the limit switch is clicked
+async def catch_pin_transitions(pin):
+   
+    with keypad.Keys((pin,), value_when_pressed=False) as keys:
+        while True:
+            event = keys.events.get()
+            if event:
+                if event.pressed:
+                    print("Limit Switch was pressed.")
+                    for step in range(STEPS*100):
+                        motor.onestep(direction=stepper.BACKWARD, style=stepper.DOUBLE)
+                        time.sleep(DELAY)
+                elif event.released:
+                    print("Limit Switch was released.")
+            await asyncio.sleep(0)
+    
+#runs the functions
+async def main():
+    while(True):
+        interrupt_task = asyncio.create_task(catch_pin_transitions(board.D2))
+        motor_task = asyncio.create_task(run_motor())
+        await asyncio.gather(interrupt_task, motor_task)
+
+
+
+#starts everything going
+asyncio.run(main())
+
+```
+
+### Evidence
+![evidence image](media/bigOlMotorI.gif)
+
+It actually works, I just thought that using the gif loop would be fun
+
+### Wiring
+
+![Wiring Diagram](media/w.png)
+
+### Reflection
+
+I was extremely confused by the asyncio things, but I think I sorta kinda understand them now. The only things that still confuse me a little bit are the await and with lines, which allow the program to run asycrinously, I just don't know how. In the end though, this assignment helped me learn how to declare functions in circitpython and introduced me to a new, maybe better, type of motor.
+
 
 ## COPY THIS
 
