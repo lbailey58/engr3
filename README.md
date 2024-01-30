@@ -516,6 +516,55 @@ It actually works, I just thought that using the gif loop would be fun
 I was extremely confused by the asyncio things, but I think I sorta kinda understand them now. The only things that still confuse me a little bit are the await and with lines, which allow the program to run asycrinously, I just don't know how. In the end though, this assignment helped me learn how to declare functions in circitpython and introduced me to a new, maybe better, type of motor.
 
 
+## IR Sensor
+
+### Description & Code
+We were assigned to make the on-board neopixel change color based on whether an IR sensor saw anything
+
+```python
+import neopixel
+import board
+import digitalio
+#Imports
+
+# Initialize the on-board neopixel and set the brightness.
+led = neopixel.NeoPixel(board.NEOPIXEL, 1)
+led.brightness = 0.3
+
+# Set up the IR Sensor using digital pin 2.
+ir_sensor = digitalio.DigitalInOut(board.D2)
+
+# Set the photointerrupter as an input.
+ir_sensor.direction = digitalio.Direction.INPUT 
+            
+# Use the internal pull-up resistor.
+ir_sensor.pull = digitalio.Pull.UP
+
+
+# While loop runs the code inside continuously.
+while True:
+    # If an object is near the IR sensor (sensor is LOW):
+    if(ir_sensor.value is False):
+        #Set the neopixel's color to RED
+        led[0] = (255, 0 , 0)
+    # If nothing is near the IR sensor (sensor is HIGH)
+    else:
+        #Set the neopixel's color to GREEN
+        led[0] = (0, 255, 0)
+
+```
+
+### Evidence
+![gif](media/Sensor.gif)
+
+### Wiring
+
+![Wiring Diagram](media/Wluff-Vihelmo.png)
+
+### Reflection
+
+This assignment was extremely easy and quick (it took me less than half of a block period), but, during it, I learned how to use an IR Sensor. IR Sensors seem easier to use than an Ultrasonic sensor, but, it has greatly decreased range. This assignment could be improved if all the code wasn't given to you and it didn't all come with comments. 
+
 ## COPY THIS
 
 ### Description & Code
