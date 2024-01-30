@@ -521,7 +521,7 @@ I was extremely confused by the asyncio things, but I think I sorta kinda unders
 ## IR Sensor
 
 ### Description & Code
-We were assigned to make the on-board neopixel change color based on whether an IR sensor saw anything
+We were assigned to make the on-board neopixel change color based on whether an IR sensor saw anything or not
 
 ```python
 import neopixel
