@@ -22,6 +22,8 @@
 
 [Stepper Motor](https://github.com/lbailey58/engr3/blob/main/README.md#big-ol-motor)
 
+[IR Sensor](https://github.com/lbailey58/engr3/blob/main/README.md#ir-sensor)
+
 [COPY THIS](https://github.com/lbailey58/engr3/blob/main/README.md#copy-this)
 
 ## Servo
