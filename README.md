@@ -523,6 +523,10 @@ I was extremely confused by the asyncio things, but I think I sorta kinda unders
 ### Description & Code
 We were assigned to make the on-board neopixel change color based on whether an IR sensor saw anything or not
 
+<details>
+<summary>Code</summary>
+<br>
+
 ```python
 import neopixel
 import board
@@ -555,6 +559,8 @@ while True:
         led[0] = (0, 255, 0)
 
 ```
+</details
+
 
 ### Evidence
 ![gif](media/Sensor.gif)
@@ -572,10 +578,17 @@ This assignment was extremely easy and quick (it took me less than half of a blo
 ### Description & Code
 Write a description of your assignment first.
 
+<details>
+<summary>How do I dropdown?</summary>
+<br>
+
 ```python
 Code goes here
 
 ```
+
+</details
+
 
 ### Evidence
 Pictures / Gifs of your work should go here.  You need to communicate what your thing does.

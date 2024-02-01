@@ -16,14 +16,27 @@ ir_sensor.direction = digitalio.Direction.INPUT
 # Use the internal pull-up resistor.
 ir_sensor.pull = digitalio.Pull.UP
 
-
+counter = 0
+print(counter)
+hi = True
 # While loop runs the code inside continuously.
 while True:
     # If an object is near the IR sensor (sensor is LOW):
     if(ir_sensor.value is False):
         #Set the neopixel's color to RED
-        led[0] = (255, 0 , 0)
+        if(counter%2 is 0):
+            led[0] = (255, 0 , 0)
+        else:
+            led[0] = (255, 165, 0)
+        if(hi):
+            hi = False
+            counter = counter + 1
+            print(counter)
     # If nothing is near the IR sensor (sensor is HIGH)
     else:
         #Set the neopixel's color to GREEN
-        led[0] = (0, 255, 0)
+        if(counter%2 is 0):
+            led[0] = (0, 255 , 0)
+        else:
+            led[0] = (0, 255, 165)
+        hi = True
