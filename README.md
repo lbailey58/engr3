@@ -573,6 +573,29 @@ while True:
 
 This assignment was extremely easy and quick (it took me less than half of a block period), but, during it, I learned how to use an IR Sensor. IR Sensors seem easier to use than an Ultrasonic sensor, but, it has greatly decreased range. This assignment could be improved if all the code wasn't given to you and it didn't all come with comments. 
 
+## Robot Gripper
+
+### Description
+We were asssigned to create our own gripper for a robot arm. The arm could only use one actuator, it must be able to fully close, and all of the parts must be able to be manufactured in the lab.
+
+### Evidence
+
+![](media/claw1.png)
+
+![](media/claw2.png)
+
+### BOM
+| Part # | Quantity | Name |
+| :-------------: | :-------------: | :-------------: |
+| 1 | 2 | Claw |
+| 2 | 1 | Pusher |
+| 3 | 1 | Holder |
+| 4 | 4 | Spring |
+
+### Reflection
+
+This assignment was fun in that we were turned loose to create our own designs. I had fun with my springs, but, I mainly did that to avoid having to deal with the complications of linkage. I wish I was able to see if the design actually works because I didn't get that opportunity with the limitations of CAD.
+
 ## COPY THIS
 
 ### Description & Code
