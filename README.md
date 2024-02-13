@@ -24,6 +24,8 @@
 
 [IR Sensor](https://github.com/lbailey58/engr3/blob/main/README.md#ir-sensor)
 
+[Robot Gripper](https://github.com/lbailey58/engr3/blob/main/README.md#robot-gripper)
+
 [COPY THIS](https://github.com/lbailey58/engr3/blob/main/README.md#copy-this)
 
 ## Servo
