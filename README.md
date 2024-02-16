@@ -598,6 +598,8 @@ We were asssigned to create our own gripper for a robot arm. The arm could only 
 
 ![](media/RG.gif)
 
+Technically meets the requirements
+
 ### Reflection
 
 This assignment was fun in that we were turned loose to create our own designs. I had fun with my springs, but, I mainly did that to avoid having to deal with the complications of linkage. I wish I was able to see if the design actually works because I didn't get that opportunity with the limitations of CAD.
