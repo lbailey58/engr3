@@ -252,7 +252,7 @@ while True:
 
 ### Evidence
 
-![gif](media/potentiometer.gif)
+![gif](media/potentiometer.png)
 
 ### Wiring
 ![wiring](media/interupterWiring.webp)
