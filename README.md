@@ -263,7 +263,7 @@ Credit to [Arduino Modules](https://arduinomodules.info/ky-010-photo-interrupter
 
 ### Reflection
 During this asignment, I learned how to use the time.monotonic function as well as the photointerupter in circuitpython. 
-This assignment was also useful for learning the digitalio library. One issue that I ran into was that my photoinerupter wasn't triggering.
+This assignment was also useful for learning the digitalio library. One issue that I ran into was that my photoinerupter wasn't triggering. I enjoyed this assignment because it got me more familiar with circuitpython.
 
 ## The Hanger
 
