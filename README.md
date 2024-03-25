@@ -16,6 +16,8 @@
 
 [Onshape Certification Prep 2](https://github.com/lbailey58/engr3/blob/main/README.md#onshape-certification-prep-2)
 
+[Onshape Certification Prep 3](https://github.com/lbailey58/engr3/blob/main/README.md#onshape-certification-prep-3)
+
 [Alignment Plate](https://github.com/lbailey58/engr3/blob/main/README.md#alignment-plate)
 
 [Rotary Encoder](https://github.com/lbailey58/engr3/blob/main/README.md#rotary-encoder)
@@ -341,6 +343,23 @@ We were assigned to draw a 3d microphone stand from drawings and then modify the
 
 ### Reflection
 This assignment did not go as well as I as hoped because I made 2 mistakes that took a while to find. This assignment helped me understand more what the test would look like. I did not enjoy how many times I had to set material in this assignment because of one of the mistakes I made.
+
+## Onshape Certification Prep 3
+
+### Description & Code
+
+[Link](https://cvilleschools.onshape.com/documents/e2f66c0e220d5f77819193a7/w/9539617efb8bf9b447058356/e/258be92b4d86c51425ebefd4?renderMode=0&uiState=6601cec9ea4fbc12c7d5ce3a)
+
+We were assigned to assemble a pliers in Onshape and then were asked questions about the pliers at different levels of openness.
+
+### Evidence
+![Assembly](media/pplier.png)
+
+![Assembly](media/test.png)
+
+### Reflection
+
+This assignment was pretty easy because all it was was using the measure tool and different types of mates. I think it was pretty easy compared to having to CAD something from scratch. I do think that being able to do assemblies is should be a required skill in order to get the certification so I do think that this assignment is a good one.
 
 ## Alignment Plate
 
