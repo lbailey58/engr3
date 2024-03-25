@@ -348,7 +348,7 @@ This assignment did not go as well as I as hoped because I made 2 mistakes that 
 
 ### Description & Code
 
-[Link](https://cvilleschools.onshape.com/documents/e2f66c0e220d5f77819193a7/w/9539617efb8bf9b447058356/e/258be92b4d86c51425ebefd4?renderMode=0&uiState=6601cec9ea4fbc12c7d5ce3a)
+[Link](https://cvilleschools.onshape.com/documents/e2f66c0e220d5f77819193a7/w/9539617efb8bf9b447058356/e/258be92b4d86c51425ebefd4?renderMode=0&uiState=6601d53aea4fbc12c7d5fb97)
 
 We were assigned to assemble a pliers in Onshape and then were asked questions about the pliers at different levels of openness.
 
