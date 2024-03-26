@@ -580,7 +580,7 @@ while True:
         led[0] = (0, 255, 0)
 
 ```
-</details
+</details>
 
 
 ### Evidence
